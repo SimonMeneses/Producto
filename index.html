@@ -19,9 +19,9 @@
 
 <body>
     <div class="div-container">
-        <header id="header row ">
-            <div class="container-fluid position-fixed">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+        <header id="header">
+            <div class="container-fluid" id="div1">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="nav-bar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="./img/logo.png" alt="Logo Sietelares" id="header-img" />
@@ -33,8 +33,8 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav mx-auto fs-2">
-                                <a class="nav-link active px-5" aria-current="page" href="#">Caracteristicas</a>
-                                <a class="nav-link px-5" href="#como-trabajamos">Como trabajamos</a>
+                                <a class="nav-link active px-5" aria-current="pag" href="#div2">Caracteristicas</a>
+                                <a class="nav-link px-5" href="#div4">Como trabajamos</a>
                                 <a class="nav-link px-5" href="#productos">Productos</a>
                             </div>
                         </div>
@@ -42,34 +42,34 @@
                 </nav>
             </div>
         </header>
-        <div class="container-fluid">
+        <div class="container-fluid" id="div2">
             <section>
                 <h2>Obras maestras hechas a mano y hechas en casa</h2>
-                <form id="form" action="https://www. reecodecamp.com/email-submit">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" >
                     <div class="mb-3 ">
-                        <label for="exampleInputEmail1" class="form-label ">Ingresa tu Email</label>
+                        <label for="exampleInputEmail1" class="form-label ">¡Ingresa tu Email para saber mas!</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Ej: Simonmf.95@gmail.com">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            placeholder="Ej: Simonmf.95@gmail.com" required>
+                        <div id="emailHelp" class="form-text">No compartiremos tus datos con nadie mas</div>
                     </div>
-                    <button type="submit" class="btn btn-primary" id="submit">Comencemos</button>
+                    <input type="submit" class="btn btn-primary bg-dark" id="submit" value="Comencemos"> 
                 </form>
             </section>
         </div>
-        <div class="col container-fluid" id="div-como">
+        <div class="col container-fluid" id="div3">
             <h2>Materiales Premium</h2>
-            <i class="fas fa-fire"></i> <span>Nuestra materia prima es de la mas alta calidad para garantizar el
+            <i class="fas fa-fire"></i> <span>  Nuestra materia prima es de la mas alta calidad para garantizar el
                 producto final</span>
             <h2>Respuesta rapida</h2>
-            <i class="fas fa-shipping-fast"></i> <span>Nuestra estrategia empresarial se enfoca en la eficiencia y
+            <i class="fas fa-shipping-fast"></i> <span>  Nuestra estrategia empresarial se enfoca en la eficiencia y
                 eficacia de nuestras operaciones, con el fin de brindar una capacidad de respuesta rapida cuyo valor
                 agregado sea la calidad</span>
             <h2>Mano de obra de calidad</h2>
-            <i class="fas fa-hand-holding-usd"></i><span>Nuestro grupo de trabajo esta conformado por los artesanos mas
+            <i class="fas fa-hand-holding-usd"></i><span>  Nuestro grupo de trabajo esta conformado por los artesanos mas
                 experimentados del sector textil</span>
         </div>
-        <div class="video-div" id="como-trabajamos">
-            <iframe id="video" width="700" height="315" src="https://www.youtube.com/embed/Fp8UZ3Wzvc4"
+        <div class="video-div" id="div4">
+            <iframe id="video" width="auto" height="auto"  src="https://www.youtube.com/embed/Fp8UZ3Wzvc4"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -104,7 +104,7 @@
               </div>
         </article>
 
-        <footer>
+        <footer class="navbar-dark bg-dark">
             <p>Colombia, Medellin |<a href="https://github.com/SimonMeneses" target="_blank"><i class="fab fa-github-square"></i></a>   <a target="_blank" href="https://www.linkedin.com/in/simon-meneses/"><i class="fab fa-instagram"></i></a>   <a href="https://github.com/SimonMeneses" target="_blank"><i class="fab fa-linkedin"></i></a> | Email: 7Lares@gmail.com |</p>
             <p>Copyright 2021 © <span>7Lares</span></p> 
         </footer>

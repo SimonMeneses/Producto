@@ -1,12 +1,65 @@
 *{
     text-decoration: none;
+    box-sizing: border-box;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
+.div-container {
+    background-color: #eee;
+}
+
 
 img {
     height: 60px;
     width: 60px;
 }
 
-#div-como{
+
+#div1 {
+    margin-bottom: 70px;
+ 
+}
+
+#email {
+    width: 50%;
     margin: auto;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+#div3 {
+    width: 80%;
+    margin: 70px auto 70px auto;
+}
+
+#div4 {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+i{
+    font-size: 25px;
+}
+
+
+@media (min-width: 700px){
+
+    #video{
+        width: 560px;
+        height: 300px;
+    }
 }
