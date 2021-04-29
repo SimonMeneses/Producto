@@ -17,6 +17,8 @@ img {
 
 #div1 {
     margin-bottom: 70px;
+    position: fixed;
+    top:0;
  
 }
 
@@ -29,6 +31,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 86px;
    
   
 }
